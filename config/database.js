@@ -88,7 +88,7 @@ module.exports = {
   mongodb: {
     connectionString: Env.get('DATABASE_URL', null),
     connection: {
-      host: Env.get('MONGO_HOST', 'mongodb+srv://admin:invernadero@cluster0.o2weg.mongodb.net/invernadero?retryWrites=true&w=majority'),
+      host: Env.get('MONGO_HOST', ''),
       port: Env.get('MONGO_PORT', 27017),
       user: Env.get('MONGO_USER', 'admin'),
       pass: Env.get('MONGO_PASSWORD', 'invernadero'),
